@@ -1,0 +1,505 @@
+strict digraph cosine1 {
+	node [fontcolor=black,
+		style=emplty
+	];
+	{
+		graph [rank=same];
+		0		 [area=0,
+			delay=0,
+			label="0\nnop\n1 [1,10]",
+			scheduled=1,
+			time_step=1,
+			tl=10,
+			ts=1];
+		25		 [area=2,
+			delay=11,
+			label="25\nsub\n1 [1,10]",
+			scheduled=1,
+			time_step=1,
+			tl=10,
+			ts=1];
+		0 -> 25;
+		31		 [area=2,
+			delay=20,
+			label="31\nadd\n1 [1,51]",
+			scheduled=1,
+			time_step=1,
+			tl=51,
+			ts=1];
+		0 -> 31;
+	}
+	{
+		graph [rank=same];
+		58		 [area=2,
+			delay=11,
+			label="58\nsub\n130 [103,130]",
+			scheduled=1,
+			time_step=130,
+			tl=130,
+			ts=103];
+		72		 [area=2,
+			delay=11,
+			label="72\nsub\n130 [62,130]",
+			scheduled=1,
+			time_step=130,
+			tl=130,
+			ts=62];
+		57		 [area=2,
+			delay=11,
+			label="57\nsub\n130 [112,130]",
+			scheduled=1,
+			time_step=130,
+			tl=130,
+			ts=112];
+	}
+	{
+		graph [rank=same];
+		68		 [area=17,
+			delay=30,
+			label="68\nmul\n100 [32,100]",
+			scheduled=1,
+			time_step=100,
+			tl=100,
+			ts=32];
+		53		 [area=17,
+			delay=30,
+			label="53\nmul\n100 [64,100]",
+			scheduled=1,
+			time_step=100,
+			tl=100,
+			ts=64];
+		49		 [area=17,
+			delay=30,
+			label="49\nmul\n100 [82,100]",
+			scheduled=1,
+			time_step=100,
+			tl=100,
+			ts=82];
+		55		 [area=17,
+			delay=30,
+			label="55\nmul\n100 [73,100]",
+			scheduled=1,
+			time_step=100,
+			tl=100,
+			ts=73];
+		51		 [area=17,
+			delay=30,
+			label="51\nmul\n100 [73,100]",
+			scheduled=1,
+			time_step=100,
+			tl=100,
+			ts=73];
+	}
+	{
+		graph [rank=same];
+		62		 [area=2,
+			delay=11,
+			label="62\nsub\n71 [21,80]",
+			scheduled=1,
+			time_step=71,
+			tl=80,
+			ts=21];
+		63		 [area=2,
+			delay=20,
+			label="63\nadd\n71 [21,71]",
+			scheduled=1,
+			time_step=71,
+			tl=71,
+			ts=21];
+		48		 [area=2,
+			delay=20,
+			label="48\nadd\n71 [53,71]",
+			scheduled=1,
+			time_step=71,
+			tl=71,
+			ts=53];
+		45		 [area=2,
+			delay=20,
+			label="45\nadd\n71 [62,71]",
+			scheduled=1,
+			time_step=71,
+			tl=71,
+			ts=62];
+	}
+	{
+		graph [rank=same];
+		61		 [area=2,
+			delay=11,
+			label="61\nsub\n41 [21,80]",
+			scheduled=1,
+			time_step=41,
+			tl=80,
+			ts=21];
+		34		 [area=2,
+			delay=20,
+			label="34\nadd\n41 [1,51]",
+			scheduled=1,
+			time_step=41,
+			tl=51,
+			ts=1];
+	}
+	{
+		graph [rank=same];
+		22		 [area=2,
+			delay=11,
+			label="22\nsub\n10 [1,10]",
+			scheduled=1,
+			time_step=10,
+			tl=10,
+			ts=1];
+	}
+	{
+		graph [rank=same];
+		81		 [area=2,
+			delay=20,
+			label="81\nexp\n132 [82,141]",
+			scheduled=1,
+			time_step=132,
+			tl=141,
+			ts=82];
+	}
+	{
+		graph [rank=same];
+		42		 [area=17,
+			delay=30,
+			label="42\nmul\n12 [12,21]",
+			scheduled=1,
+			time_step=12,
+			tl=21,
+			ts=12];
+		28		 [area=2,
+			delay=11,
+			label="28\nsub\n12 [1,60]",
+			scheduled=1,
+			time_step=12,
+			tl=60,
+			ts=1];
+	}
+	{
+		graph [rank=same];
+		80		 [area=2,
+			delay=20,
+			label="80\nexp\n141 [73,141]",
+			scheduled=1,
+			time_step=141,
+			tl=141,
+			ts=73];
+		82		 [area=2,
+			delay=20,
+			label="82\nexp\n141 [91,141]",
+			scheduled=1,
+			time_step=141,
+			tl=141,
+			ts=91];
+		77		 [area=2,
+			delay=20,
+			label="77\nexp\n141 [123,141]",
+			scheduled=1,
+			time_step=141,
+			tl=141,
+			ts=123];
+		76		 [area=2,
+			delay=20,
+			label="76\nexp\n141 [114,141]",
+			scheduled=1,
+			time_step=141,
+			tl=141,
+			ts=114];
+		75		 [area=2,
+			delay=20,
+			label="75\nexp\n141 [123,141]",
+			scheduled=1,
+			time_step=141,
+			tl=141,
+			ts=123];
+		79		 [area=2,
+			delay=20,
+			label="79\nexp\n141 [82,141]",
+			scheduled=1,
+			time_step=141,
+			tl=141,
+			ts=82];
+		78		 [area=2,
+			delay=20,
+			label="78\nexp\n141 [132,141]",
+			scheduled=1,
+			time_step=141,
+			tl=141,
+			ts=132];
+	}
+	{
+		graph [rank=same];
+		83		 [area=0,
+			delay=0,
+			label="83\nnop\n161 [152,161]",
+			scheduled=1,
+			time_step=161,
+			tl=161,
+			ts=152];
+	}
+	{
+		graph [rank=same];
+		71		 [area=2,
+			delay=20,
+			label="71\nadd\n112 [62,121]",
+			scheduled=1,
+			time_step=112,
+			tl=121,
+			ts=62];
+	}
+	{
+		graph [rank=same];
+		54		 [area=17,
+			delay=30,
+			label="54\nmul\n82 [64,91]",
+			scheduled=1,
+			time_step=82,
+			tl=91,
+			ts=64];
+		67		 [area=17,
+			delay=30,
+			label="67\nmul\n82 [32,91]",
+			scheduled=1,
+			time_step=82,
+			tl=91,
+			ts=32];
+	}
+	{
+		graph [rank=same];
+		43		 [area=2,
+			delay=20,
+			label="43\nadd\n51 [42,51]",
+			scheduled=1,
+			time_step=51,
+			tl=51,
+			ts=42];
+		44		 [area=2,
+			delay=11,
+			label="44\nsub\n51 [42,60]",
+			scheduled=1,
+			time_step=51,
+			tl=60,
+			ts=42];
+		37		 [area=2,
+			delay=20,
+			label="37\nadd\n51 [1,51]",
+			scheduled=1,
+			time_step=51,
+			tl=51,
+			ts=1];
+	}
+	{
+		graph [rank=same];
+		65		 [area=17,
+			delay=30,
+			label="65\nmul\n52 [32,91]",
+			scheduled=1,
+			time_step=52,
+			tl=91,
+			ts=32];
+		66		 [area=17,
+			delay=30,
+			label="66\nmul\n52 [32,100]",
+			scheduled=1,
+			time_step=52,
+			tl=100,
+			ts=32];
+	}
+	{
+		graph [rank=same];
+		40		 [area=2,
+			delay=20,
+			label="40\nadd\n21 [1,51]",
+			scheduled=1,
+			time_step=21,
+			tl=51,
+			ts=1];
+		41		 [area=17,
+			delay=30,
+			label="41\nmul\n21 [12,21]",
+			scheduled=1,
+			time_step=21,
+			tl=21,
+			ts=12];
+		19		 [area=2,
+			delay=11,
+			label="19\nsub\n21 [1,60]",
+			scheduled=1,
+			time_step=21,
+			tl=60,
+			ts=1];
+	}
+	{
+		graph [rank=same];
+		46		 [area=2,
+			delay=11,
+			label="46\nsub\n73 [62,80]",
+			scheduled=1,
+			time_step=73,
+			tl=80,
+			ts=62];
+	}
+	{
+		graph [rank=same];
+		60		 [area=2,
+			delay=20,
+			label="60\nadd\n121 [112,121]",
+			scheduled=1,
+			time_step=121,
+			tl=121,
+			ts=112];
+		74		 [area=2,
+			delay=20,
+			label="74\nadd\n121 [71,121]",
+			scheduled=1,
+			time_step=121,
+			tl=121,
+			ts=71];
+		73		 [area=2,
+			delay=11,
+			label="73\nsub\n121 [71,130]",
+			scheduled=1,
+			time_step=121,
+			tl=130,
+			ts=71];
+		59		 [area=2,
+			delay=20,
+			label="59\nadd\n121 [103,121]",
+			scheduled=1,
+			time_step=121,
+			tl=121,
+			ts=103];
+	}
+	{
+		graph [rank=same];
+		56		 [area=17,
+			delay=30,
+			label="56\nmul\n91 [73,91]",
+			scheduled=1,
+			time_step=91,
+			tl=91,
+			ts=73];
+		69		 [area=17,
+			delay=30,
+			label="69\nmul\n91 [41,91]",
+			scheduled=1,
+			time_step=91,
+			tl=91,
+			ts=41];
+		52		 [area=17,
+			delay=30,
+			label="52\nmul\n91 [73,91]",
+			scheduled=1,
+			time_step=91,
+			tl=91,
+			ts=73];
+		70		 [area=17,
+			delay=30,
+			label="70\nmul\n91 [41,91]",
+			scheduled=1,
+			time_step=91,
+			tl=91,
+			ts=41];
+		50		 [area=17,
+			delay=30,
+			label="50\nmul\n91 [82,91]",
+			scheduled=1,
+			time_step=91,
+			tl=91,
+			ts=82];
+	}
+	{
+		graph [rank=same];
+		64		 [area=2,
+			delay=20,
+			label="64\nadd\n61 [21,71]",
+			scheduled=1,
+			time_step=61,
+			tl=71,
+			ts=21];
+	}
+	{
+		graph [rank=same];
+		47		 [area=2,
+			delay=11,
+			label="47\nsub\n62 [53,80]",
+			scheduled=1,
+			time_step=62,
+			tl=80,
+			ts=53];
+	}
+	58 -> 76	 [name=56];
+	56 -> 60	 [name=54];
+	0 -> 28;
+	0 -> 40;
+	0 -> 22;
+	0 -> 34;
+	0 -> 19;
+	0 -> 37;
+	54 -> 59	 [name=52];
+	42 -> 43	 [name=34];
+	42 -> 44	 [name=33];
+	43 -> 46	 [name=35];
+	43 -> 45	 [name=36];
+	60 -> 78	 [name=58];
+	61 -> 65	 [name=59];
+	61 -> 66	 [name=60];
+	62 -> 67	 [name=61];
+	62 -> 68	 [name=62];
+	63 -> 69	 [name=63];
+	64 -> 70	 [name=64];
+	65 -> 71	 [name=65];
+	66 -> 72	 [name=66];
+	67 -> 71	 [name=67];
+	68 -> 72	 [name=68];
+	69 -> 74	 [name=70];
+	69 -> 73	 [name=69];
+	80 -> 83;
+	81 -> 83;
+	53 -> 58	 [name=51];
+	25 -> 42	 [name=10];
+	48 -> 56	 [name=45];
+	48 -> 55	 [name=46];
+	49 -> 57	 [name=47];
+	46 -> 52	 [name=41];
+	46 -> 51	 [name=42];
+	44 -> 48	 [name=38];
+	44 -> 47	 [name=37];
+	45 -> 49	 [name=40];
+	45 -> 50	 [name=39];
+	28 -> 48	 [name=14];
+	28 -> 47	 [name=13];
+	40 -> 61	 [name=29];
+	40 -> 64	 [name=30];
+	41 -> 43	 [name=32];
+	41 -> 44	 [name=31];
+	82 -> 83;
+	47 -> 54	 [name=44];
+	47 -> 53	 [name=43];
+	52 -> 59	 [name=50];
+	77 -> 83;
+	76 -> 83;
+	75 -> 83;
+	74 -> 82	 [name=76];
+	73 -> 81	 [name=75];
+	72 -> 80	 [name=74];
+	71 -> 79	 [name=73];
+	70 -> 74	 [name=72];
+	70 -> 73	 [name=71];
+	79 -> 83;
+	78 -> 83;
+	59 -> 77	 [name=57];
+	22 -> 41	 [name=7];
+	55 -> 57	 [name=53];
+	57 -> 75	 [name=55];
+	51 -> 58	 [name=49];
+	34 -> 62	 [name=22];
+	34 -> 63	 [name=21];
+	19 -> 46	 [name=3];
+	19 -> 45	 [name=4];
+	37 -> 62	 [name=26];
+	37 -> 63	 [name=25];
+	31 -> 61	 [name=17];
+	31 -> 64	 [name=18];
+	50 -> 60	 [name=48];
+}

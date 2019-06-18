@@ -1,0 +1,42 @@
+strict digraph "hal" {
+node [fontcolor=black, style=empty];
+
+20 [delay=20, tl=84, area=2, mobility=43, ts=41, label=exp];
+21 [delay=20, tl=84, area=2, mobility=63, ts=21, label=exp];
+22 [delay=0, tl=104, area=0, mobility=1, ts=103, label=nop];
+0 [delay=0, tl=2, area=0, mobility=1, ts=1, label=nop];
+7 [delay=30, tl=2, area=17, mobility=1, ts=1, label=mul];
+9 [delay=30, tl=2, area=17, mobility=1, ts=1, label=mul];
+8 [delay=30, tl=34, area=17, mobility=33, ts=1, label=mul];
+11 [delay=20, tl=44, area=2, mobility=43, ts=1, label=add];
+10 [delay=30, tl=13, area=17, mobility=12, ts=1, label=mul];
+13 [delay=20, tl=64, area=2, mobility=33, ts=31, label=add];
+12 [delay=30, tl=32, area=17, mobility=1, ts=31, label=mul];
+15 [delay=20, tl=64, area=1, mobility=43, ts=21, label=les];
+14 [delay=30, tl=43, area=17, mobility=12, ts=31, label=mul];
+17 [delay=11, tl=73, area=2, mobility=1, ts=72, label=sub];
+16 [delay=11, tl=62, area=2, mobility=1, ts=61, label=sub];
+19 [delay=20, tl=84, area=2, mobility=33, ts=51, label=exp];
+18 [delay=20, tl=84, area=2, mobility=1, ts=83, label=exp];
+20 -> 22;
+21 -> 22;
+0 -> 9;
+0 -> 8;
+0 -> 11;
+0 -> 7;
+0 -> 10;
+7 -> 12  [name=14];
+9 -> 12  [name=16];
+8 -> 13  [name=15];
+11 -> 15  [name=18];
+11 -> 21  [name=19];
+10 -> 14  [name=17];
+13 -> 19  [name=21];
+12 -> 16  [name=20];
+15 -> 20  [name=23];
+14 -> 17  [name=22];
+17 -> 18  [name=25];
+16 -> 17  [name=24];
+19 -> 22;
+18 -> 22;
+}

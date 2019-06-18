@@ -1,0 +1,3 @@
+F = a.b.d + a.c.d + b.c + b.f + c.f
+G = a.d.f + b.f + c.f + e.f
+H = a.d.e + b.c + c.e

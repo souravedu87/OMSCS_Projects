@@ -1,0 +1,7 @@
+# Name	Operation	Latency	Data_Introduction_Interval	Area	Area
+
+Mutliplier	mul	30	15	29196	17
+Adder	add	20	10	3077	2
+Subtractor	sub	11	6	3077	2
+Comparator	les 20	20	1771	1
+Exponent	exp	20	20	3077	2

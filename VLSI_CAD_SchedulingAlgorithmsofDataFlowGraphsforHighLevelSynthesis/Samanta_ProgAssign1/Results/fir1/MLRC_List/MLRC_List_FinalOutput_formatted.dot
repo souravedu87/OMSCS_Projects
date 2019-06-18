@@ -1,0 +1,278 @@
+strict digraph fir1 {
+	node [fontcolor=black,
+		style=empty
+	];
+	{
+		graph [rank=same];
+		26		 [area=2,
+			delay=20,
+			label="26\nadd\n1 [1,81]",
+			mobility=80,
+			scheduled=1,
+			time_step=1,
+			tl=81,
+			ts=1];
+		20		 [area=2,
+			delay=20,
+			label="20\nadd\n1 [1,41]",
+			mobility=40,
+			scheduled=1,
+			time_step=1,
+			tl=41,
+			ts=1];
+		23		 [area=2,
+			delay=20,
+			label="23\nadd\n1 [1,61]",
+			mobility=60,
+			scheduled=1,
+			time_step=1,
+			tl=61,
+			ts=1];
+		29		 [area=2,
+			delay=20,
+			label="29\nadd\n1 [1,101]",
+			mobility=100,
+			scheduled=1,
+			time_step=1,
+			tl=101,
+			ts=1];
+		0		 [area=0,
+			delay=0,
+			label="0\nnop\n1 [1,1]",
+			mobility=0,
+			scheduled=1,
+			time_step=1,
+			tl=1,
+			ts=1];
+		0 -> 26;
+		0 -> 20;
+		0 -> 23;
+		0 -> 29;
+		11		 [area=2,
+			delay=20,
+			label="11\nadd\n1 [1,1]",
+			mobility=0,
+			scheduled=1,
+			time_step=1,
+			tl=1,
+			ts=1];
+		0 -> 11;
+		14		 [area=2,
+			delay=20,
+			label="14\nadd\n1 [1,1]",
+			mobility=0,
+			scheduled=1,
+			time_step=1,
+			tl=1,
+			ts=1];
+		0 -> 14;
+		17		 [area=2,
+			delay=20,
+			label="17\nadd\n1 [1,21]",
+			mobility=20,
+			scheduled=1,
+			time_step=1,
+			tl=21,
+			ts=1];
+		0 -> 17;
+		32		 [area=2,
+			delay=20,
+			label="32\nadd\n1 [1,121]",
+			mobility=120,
+			scheduled=1,
+			time_step=1,
+			tl=121,
+			ts=1];
+		0 -> 32;
+	}
+	{
+		graph [rank=same];
+		45		 [area=2,
+			delay=20,
+			label="45\nadd\n131 [131,131]",
+			mobility=0,
+			scheduled=1,
+			time_step=131,
+			tl=131,
+			ts=131];
+	}
+	{
+		graph [rank=same];
+		49		 [area=0,
+			delay=0,
+			label="49\nnop\n211 [211,211]",
+			mobility=0,
+			scheduled=1,
+			time_step=211,
+			tl=211,
+			ts=211];
+	}
+	{
+		graph [rank=same];
+		42		 [area=2,
+			delay=20,
+			label="42\nadd\n71 [71,71]",
+			mobility=0,
+			scheduled=1,
+			time_step=71,
+			tl=71,
+			ts=71];
+	}
+	{
+		graph [rank=same];
+		47		 [area=2,
+			delay=20,
+			label="47\nadd\n171 [171,171]",
+			mobility=0,
+			scheduled=1,
+			time_step=171,
+			tl=171,
+			ts=171];
+	}
+	{
+		graph [rank=same];
+		44		 [area=2,
+			delay=20,
+			label="44\nadd\n111 [111,111]",
+			mobility=0,
+			scheduled=1,
+			time_step=111,
+			tl=111,
+			ts=111];
+	}
+	{
+		graph [rank=same];
+		41		 [area=2,
+			delay=20,
+			label="41\nadd\n51 [51,51]",
+			mobility=0,
+			scheduled=1,
+			time_step=51,
+			tl=51,
+			ts=51];
+	}
+	{
+		graph [rank=same];
+		40		 [area=17,
+			delay=30,
+			label="40\nmul\n21 [21,141]",
+			mobility=120,
+			scheduled=1,
+			time_step=21,
+			tl=141,
+			ts=21];
+		39		 [area=17,
+			delay=30,
+			label="39\nmul\n21 [21,121]",
+			mobility=100,
+			scheduled=1,
+			time_step=21,
+			tl=121,
+			ts=21];
+		38		 [area=17,
+			delay=30,
+			label="38\nmul\n21 [21,101]",
+			mobility=80,
+			scheduled=1,
+			time_step=21,
+			tl=101,
+			ts=21];
+		37		 [area=17,
+			delay=30,
+			label="37\nmul\n21 [21,81]",
+			mobility=60,
+			scheduled=1,
+			time_step=21,
+			tl=81,
+			ts=21];
+		36		 [area=17,
+			delay=30,
+			label="36\nmul\n21 [21,61]",
+			mobility=40,
+			scheduled=1,
+			time_step=21,
+			tl=61,
+			ts=21];
+		35		 [area=17,
+			delay=30,
+			label="35\nmul\n21 [21,41]",
+			mobility=20,
+			scheduled=1,
+			time_step=21,
+			tl=41,
+			ts=21];
+		34		 [area=17,
+			delay=30,
+			label="34\nmul\n21 [21,21]",
+			mobility=0,
+			scheduled=1,
+			time_step=21,
+			tl=21,
+			ts=21];
+		33		 [area=17,
+			delay=30,
+			label="33\nmul\n21 [21,21]",
+			mobility=0,
+			scheduled=1,
+			time_step=21,
+			tl=21,
+			ts=21];
+	}
+	{
+		graph [rank=same];
+		46		 [area=2,
+			delay=20,
+			label="46\nadd\n151 [151,151]",
+			mobility=0,
+			scheduled=1,
+			time_step=151,
+			tl=151,
+			ts=151];
+	}
+	{
+		graph [rank=same];
+		43		 [area=2,
+			delay=20,
+			label="43\nadd\n91 [91,91]",
+			mobility=0,
+			scheduled=1,
+			time_step=91,
+			tl=91,
+			ts=91];
+	}
+	{
+		graph [rank=same];
+		48		 [area=2,
+			delay=20,
+			label="48\nexp\n191 [191,191]",
+			mobility=0,
+			scheduled=1,
+			time_step=191,
+			tl=191,
+			ts=191];
+	}
+	42 -> 43	 [name=34];
+	43 -> 44	 [name=35];
+	26 -> 38	 [name=18];
+	20 -> 36	 [name=12];
+	48 -> 49;
+	23 -> 37	 [name=15];
+	46 -> 47	 [name=38];
+	47 -> 48	 [name=39];
+	44 -> 45	 [name=36];
+	45 -> 46	 [name=37];
+	29 -> 39	 [name=21];
+	40 -> 47	 [name=32];
+	41 -> 42	 [name=33];
+	39 -> 46	 [name=31];
+	38 -> 45	 [name=30];
+	11 -> 33	 [name=3];
+	14 -> 34	 [name=6];
+	17 -> 35	 [name=9];
+	37 -> 44	 [name=29];
+	36 -> 43	 [name=28];
+	35 -> 42	 [name=27];
+	34 -> 41	 [name=26];
+	33 -> 41	 [name=25];
+	32 -> 40	 [name=24];
+}

@@ -1,0 +1,175 @@
+strict digraph hal {
+	node [fontcolor=black,
+		style=empty
+	];
+	{
+		graph [rank=same];
+		20		 [area=2,
+			delay=20,
+			label="20\nexp\n64 [41,84]",
+			mobility=43,
+			time_step=64,
+			tl=84,
+			ts=41];
+	}
+	{
+		graph [rank=same];
+		0		 [area=0,
+			delay=0,
+			label="0\nnop\n1 [1,2]",
+			mobility=1,
+			time_step=1,
+			tl=2,
+			ts=1];
+		7		 [area=17,
+			delay=30,
+			label="7\nmul\n1 [1,2]",
+			mobility=1,
+			time_step=1,
+			tl=2,
+			ts=1];
+		0 -> 7;
+		9		 [area=17,
+			delay=30,
+			label="9\nmul\n1 [1,2]",
+			mobility=1,
+			time_step=1,
+			tl=2,
+			ts=1];
+		0 -> 9;
+		11		 [area=2,
+			delay=20,
+			label="11\nadd\n1 [1,44]",
+			mobility=43,
+			time_step=1,
+			tl=44,
+			ts=1];
+		0 -> 11;
+	}
+	{
+		graph [rank=same];
+		14		 [area=17,
+			delay=30,
+			label="14\nmul\n37 [31,43]",
+			mobility=12,
+			time_step=37,
+			tl=43,
+			ts=31];
+	}
+	{
+		graph [rank=same];
+		10		 [area=17,
+			delay=30,
+			label="10\nmul\n7 [1,13]",
+			mobility=12,
+			time_step=7,
+			tl=13,
+			ts=1];
+	}
+	{
+		graph [rank=same];
+		22		 [area=0,
+			delay=0,
+			label="22\nnop\n104 [103,104]",
+			mobility=1,
+			time_step=104,
+			tl=104,
+			ts=103];
+	}
+	{
+		graph [rank=same];
+		17		 [area=2,
+			delay=11,
+			label="17\nsub\n72 [72,73]",
+			mobility=1,
+			time_step=72,
+			tl=73,
+			ts=72];
+	}
+	{
+		graph [rank=same];
+		19		 [area=2,
+			delay=20,
+			label="19\nexp\n84 [51,84]",
+			mobility=33,
+			time_step=84,
+			tl=84,
+			ts=51];
+		18		 [area=2,
+			delay=20,
+			label="18\nexp\n84 [83,84]",
+			mobility=1,
+			time_step=84,
+			tl=84,
+			ts=83];
+	}
+	{
+		graph [rank=same];
+		21		 [area=2,
+			delay=20,
+			label="21\nexp\n21 [21,84]",
+			mobility=63,
+			time_step=21,
+			tl=84,
+			ts=21];
+		15		 [area=1,
+			delay=20,
+			label="15\nles\n21 [21,64]",
+			mobility=43,
+			time_step=21,
+			tl=64,
+			ts=21];
+	}
+	{
+		graph [rank=same];
+		13		 [area=2,
+			delay=20,
+			label="13\nadd\n61 [31,64]",
+			mobility=33,
+			time_step=61,
+			tl=64,
+			ts=31];
+		16		 [area=2,
+			delay=11,
+			label="16\nsub\n61 [61,62]",
+			mobility=1,
+			time_step=61,
+			tl=62,
+			ts=61];
+	}
+	{
+		graph [rank=same];
+		8		 [area=17,
+			delay=30,
+			label="8\nmul\n31 [1,34]",
+			mobility=33,
+			time_step=31,
+			tl=34,
+			ts=1];
+		12		 [area=17,
+			delay=30,
+			label="12\nmul\n31 [31,32]",
+			mobility=1,
+			time_step=31,
+			tl=32,
+			ts=31];
+	}
+	20 -> 22;
+	21 -> 22;
+	0 -> 8;
+	0 -> 10;
+	7 -> 12	 [name=14];
+	9 -> 12	 [name=16];
+	8 -> 13	 [name=15];
+	11 -> 21	 [name=19];
+	11 -> 15	 [name=18];
+	10 -> 14	 [name=17];
+	13 -> 19	 [name=21];
+	12 -> 16	 [name=20];
+	15 -> 20	 [name=23];
+	14 -> 17	 [name=22];
+	17 -> 18	 [name=25];
+	16 -> 17	 [name=24];
+	19 -> 22;
+	18 -> 22;
+}
